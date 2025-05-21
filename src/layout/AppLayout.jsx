@@ -7,9 +7,7 @@ function AppLayout() {
                 <Searchbar />
             </header>
             <main>
-                <section>
-                    <Home />
-                </section>
+                <Home />
             </main>
         </>
     )
