@@ -4,7 +4,10 @@ function AppLayout() {
     return (
         <>
             <header>
-                <Searchbar />
+                 <div className="header container">
+                    <h1 className="logo">BOOLFLIX</h1>
+                    <Searchbar />
+                </div>
             </header>
             <main>
                 <Home />

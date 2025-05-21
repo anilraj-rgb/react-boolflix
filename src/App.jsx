@@ -12,8 +12,8 @@ const apiUrlImg = "https://image.tmdb.org/t/p/"
 function App() {
   const [movies, setMovies] = useState([]);
 const [series, setSeries] = useState([]);
-  console.log(movies);
-  console.log(series);
+  //console.log(movies);
+  //console.log(series);
 
   
   function getMovies(query) {
