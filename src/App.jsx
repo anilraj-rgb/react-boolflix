@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useEffect, useState } from "react"
+import { useEffect, } from "react"
 import GlobalContext from "./contexts/GlobalContext"
 import AppLayout from "./layout/AppLayout"
 import axios from "axios"
